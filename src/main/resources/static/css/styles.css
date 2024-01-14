@@ -1,0 +1,246 @@
+
+header {
+    background-color: #ffffff; /* Add your preferred background color */
+    padding: 10px;
+    text-align: left;
+    color:black; /* Text color */
+    margin:0;
+}
+
+header img {
+    margin-right: 10px; /* Add some spacing between the image and text */
+}
+
+header h1 {
+    display: inline; /* Display the h1 inline with the image */
+}
+section h1{
+	padding :10px;
+	color :	darkblue;
+	font-size:40px;
+	text-align:center;
+	font-style:oblique;
+	background-color: lightblue;
+}
+section h2{
+	padding :1px;
+	color :	#4292b9;
+	font-size:30px;
+	text-align:center;
+	font-weight: bold;
+    text-align: center;
+}
+section h3 {
+	color: darkgoldenrod;
+    text-align: center;
+    padding: 5px;
+    font-family: fantasy;
+    font-size: 28px;
+	}
+section	p {
+    text-align: center;
+    font-family: emoji;
+   
+}
+	
+.register-btn button {
+    background-color: #c0c0c0; /* Add your preferred button color */
+    color: #ffffff;
+    padding: 8px 12px;
+    margin-left: 10px; /* Add some spacing between buttons */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.register-btn button:hover {
+    background-color: #000000; /* Change color on hover */
+}
+.header-section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px;
+     background:ghostwhite;
+}
+.carousel-cell {
+    width: 100%;
+    height: 300px; /* Set a fixed height for the carousel cells */
+    overflow: hidden;
+}
+
+.carousel-cell img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+.ul-list-adj {
+    color: black;
+    justify-items: center;
+    text-align: center;
+    font-size: 18px;
+    
+}
+.ul-list-adj li {
+    list-style-type: none;
+    color: black;
+    padding: 2px;
+}
+	footer {
+	    background-color: #34495e;
+	    color: #ecf0f1;
+	    padding: 20px;
+	}
+	.footer-items {
+	    display: flex;
+	    justify-content: space-between; /* Adjust as needed */
+	    align-items: center; /* Center vertically */
+	    
+	}
+	
+	.footer-item-1 h1,
+	.footer-item-2 h1 {
+	    color: #3498db;
+	}
+	
+	.footer-item-2 a {
+	    color: #fff;
+	    text-decoration: none;
+	    display: block;
+	    margin-bottom: 5px;
+	}
+	
+	.social-Media-icons a {
+	    color: #ecf0f1;
+	    margin-right: 10px;
+	    text-decoration: none;
+	    font-size: 20px;
+	}
+	
+	.fa {
+	    padding: 20px;
+	    font-size: 50px;
+	    width: 30px;
+	    text-align: center;
+	    text-decoration: none;
+	    margin: 6px;
+	    display: inline;
+	    border-radius: 55px;
+	}
+	
+	.fa-facebook {
+	    background: #3B5998;
+	    color: white;
+	}
+	
+	.fa-instagram {
+	    background: #C13584;
+	    color: white;
+	}
+	
+	.fa-linkedin {
+	    background: #007bb5;
+	    color: white;
+	}
+	
+	.fa-twitter {
+	    background: #55ACEE;
+	    color: white;
+	}
+	
+	.fa:hover {
+	    opacity: 0.5;
+	}
+	
+	.social-Media-icons {
+	    display: inline-flex;
+	    align-items: center;
+	    margin: 20px;
+	    padding: 20px;
+	    justify-content: center;
+	    width: 350px;
+	}
+	
+	.social-Media-icons p {
+	    font-size: 12px;
+	}
+	
+	
+	*{
+		text-decoration: none;
+	}
+	.form-container {
+	    
+	display: flex;
+	    
+	flex-direction: row;
+	    
+	flex-wrap: nowrap;
+	    
+	justify-content: space-around;
+	    
+	align-items:baseline;
+	    
+	background-color: #1A2238;
+	}
+	
+	.form-items {
+	    border:1px solid red;
+	    padding: 20px;
+	    border-radius: 8px;
+	    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	    max-width: 400px;
+	    width: 100%;
+	}
+
+label {
+	display: block;
+    margin-bottom: 8px;
+    color: antiquewhite;
+ }
+ input {
+	width: calc(100% - 16px);
+	padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+ input[type="submit"] {
+     background-color: #4caf50;
+     color: #fff;
+     cursor: pointer;
+     border: none;
+ }
+ input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.gender-div{
+	
+	display: flex;
+    padding:10px;
+}
+ .gender-div label{
+        
+         margin-right: 20px;
+    }
+.success-message{
+     margin-top: 16px;
+     color:green;
+ }
+.error-message {
+	margin-top: 16px;
+    color: #ff0000;
+ }
+#validationMessage {
+    color: red;
+}
+#header-ele {
+    text-align: center;
+    padding: unset;
+    padding: 10px;
+    margin: 10px;
+}
+
+
